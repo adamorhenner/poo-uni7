@@ -1,0 +1,11 @@
+CONTROLE DE VERSÃO
+- Mantém base histórica da evolução do código fonte de um software
+- Ferramentas:
+ -- Git
+
+Passos:
+0 - Instalar o Git
+1 - Escolher uma pasta que será o repositório (dir, mkdir e cd)
+2 - 'git init' para iniciar um novo repositório do Git
+3 - 'git status' para verificar o estado dos arquivos no repositório
+4 - 'git add' para incluir arquivos no tracking do Git

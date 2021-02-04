@@ -1,7 +1,5 @@
 CONTROLE DE VERSÃO
 - Mantém base histórica da evolução do código fonte de um software
-- Ferramentas:
- -- Git
 
 Passos:
 0 - Instalar o Git

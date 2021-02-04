@@ -9,3 +9,4 @@ Passos:
 2 - 'git init' para iniciar um novo repositório do Git
 3 - 'git status' para verificar o estado dos arquivos no repositório
 4 - 'git add' para incluir arquivos no tracking do Git
+5 - 'git commit -m "uma meensagem descritiva"' para confirmar as mudanças do stage para o repositório local

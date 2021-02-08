@@ -11,3 +11,5 @@ Passos:
 6 - 'git config --global user.email "seu@email.com"'
 7 - 'git commit -m "uma meensagem descritiva"' para confirmar as mudanças do stage para o repositório local
 8 - 'git log' para ver o histórico de commits do repositório local
+
+9 - 'git clone URL' para baixar um repositório remoto

@@ -1,0 +1,7 @@
+- Crie um fork de um repositório no Github (https://github.com/alexfrt/poo-uni7)
+- Inicie um novo branch a partir do branch principal
+- Inclua 2 novos arquivos no repositório
+- Modifique algum arquivo previamente existente
+- Remova algum arquivo previamente existente
+- Suba as mudanças para o seu repositório no Github
+- Abra uma Pull Request do seu fork para o repositório original

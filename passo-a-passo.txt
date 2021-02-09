@@ -13,3 +13,5 @@ Passos:
 8 - 'git log' para ver o histórico de commits do repositório local
 
 9 - 'git clone URL' para baixar um repositório remoto
+
+10 - git checkout -b "Nome do braunch" (cria um novo braunch)

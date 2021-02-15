@@ -1,14 +1,40 @@
 class Cachorro{
-  String raca;
-  String nome;
-  int comprimentoDoPeLo;
-  int idade;
-  int peso;
+  private String raca;
+  private String nome;
+  private int comprimentoDoPeLo;
+  private int idade;
+  private int peso;
 
-  void latir(){
+  public String getRaca(){
+    return raca;
+  }
+
+  public int getComprimentoDoPelo(){
+    return comprimentoDoPeLo;
+  }
+
+  public int getIdade(){
+    return idade;
+  }
+
+  public String getNome(){
+    return nome;
+  }
+
+  public void setNome(String novoNome){
+    nome = novoNome;
+
+  }
+
+  public void setIdade(int novaIdade){
+    idade = novaIdade;
+  }
+
+
+  public void latir(){
     System.out.println("O cachorro "+ nome + " está latindo...");
   }
-  void andar(int distancia){
+  public void andar(int distancia){
 
   }
 }

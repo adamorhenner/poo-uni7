@@ -1,7 +1,7 @@
 class Main{
   public static void main(String[] args){
     Cachorro c1 = new Cachorro();
-    c1.nome = "Rex";
+    c1.setNome("rex");
     c1.idade = 10;
     c1.latir();
 

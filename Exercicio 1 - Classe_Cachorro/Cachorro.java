@@ -1,16 +1,28 @@
 class Cachorro{
-  private String raca;
-  private String nome;
-  private int comprimentoDoPeLo;
+  private final Raca raca;
+  private final String nome;
+  private int comprimentoDoPelo;
   private int idade;
   private int peso;
 
-  public String getRaca(){
-    return raca;
+  public Cachorro(Raca raca, String nome){
+    this.nome = nome;
+    this.raca = raca;
+    this.peso = 1;
+    this.comprimentoDoPelo = 10;
   }
 
+  public Cachorro(Raca raca, String nome, int peso, int comprimentoDoPelo, int idade){
+    this.nome = nome;
+    this.raca = raca;
+    this.peso = peso;
+    this.idade = idade;
+    this.comprimentoDoPelo = comprimentoDoPelo;
+  }
+
+
   public int getComprimentoDoPelo(){
-    return comprimentoDoPeLo;
+    return comprimentoDoPelo;
   }
 
   public int getIdade(){
@@ -21,10 +33,7 @@ class Cachorro{
     return nome;
   }
 
-  public void setNome(String novoNome){
-    nome = novoNome;
 
-  }
 
   public void setIdade(int novaIdade){
     idade = novaIdade;
@@ -35,6 +44,6 @@ class Cachorro{
     System.out.println("O cachorro "+ nome + " está latindo...");
   }
   public void andar(int distancia){
-
+    System.out.println("andar " + raca.toString().charAt(0));
   }
 }

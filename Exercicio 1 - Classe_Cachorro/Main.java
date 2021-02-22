@@ -1,13 +1,10 @@
 class Main{
   public static void main(String[] args){
-    Cachorro c1 = new Cachorro();
-    c1.nome = "Rex";
-    c1.idade = 10;
+    Cachorro c1 = new Cachorro(Raca.PE_DURO, "Rex");
+    c1.setIdade(10);
     c1.latir();
-
-    Cachorro c2 = new Cachorro();
-    c2.nome = "Babau";
-    c2.idade = 2;
+    c1.andar(1);
+    Cachorro c2 = new Cachorro(Raca.PINSHER, "gigi", 10,10,10);
     c2.latir();
 
     for (int i = 0; i<10; i++){

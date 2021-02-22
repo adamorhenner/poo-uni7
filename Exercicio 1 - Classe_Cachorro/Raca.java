@@ -1,0 +1,6 @@
+public enum Raca{
+  PE_DURO,
+  CACHORRO_MIUDO,
+  CACHORRO_CARAMELO,
+  PINSHER
+}

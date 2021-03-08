@@ -9,10 +9,15 @@ public class Cor{
     this.blue = azul;
   }
 
+<<<<<<< HEAD
 
 
   public int getRed() {
     return this.red;
+=======
+  public int getRed(){
+    return red;
+>>>>>>> 6af35011e0b3c7efbf1aa48a90c0c2ed88a2b89c
   }
 
   public void setRed(int vermelho){
@@ -20,7 +25,11 @@ public class Cor{
   }
 
   public int getGreen(){
+<<<<<<< HEAD
     return this.green;
+=======
+    return green;
+>>>>>>> 6af35011e0b3c7efbf1aa48a90c0c2ed88a2b89c
   }
 
   public void setGreen(int verde){
@@ -28,7 +37,11 @@ public class Cor{
   }
   
   public int getBlue(){
+<<<<<<< HEAD
     return this.blue;
+=======
+    return blue;
+>>>>>>> 6af35011e0b3c7efbf1aa48a90c0c2ed88a2b89c
   }
 
   public void setBlue(int azul){

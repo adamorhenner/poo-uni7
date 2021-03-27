@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class Carro {
 
   private final Motor motor;
@@ -42,7 +41,7 @@ public class Carro {
 
   public int getVelocidadeAtual() {
     return velocidadeAtual;
-=======
+
 public class Carro{
   private Motor motor;
   private int velocidadeMax;

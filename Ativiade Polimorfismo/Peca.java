@@ -1,5 +1,6 @@
 public class Peca{
-  public void movimentar(){
-    System.out.println()
+  
+  public void movimentar(String andar){
+    System.out.println("Sua peça anda: " + andar);
   }
 }

@@ -1,2 +1,5 @@
-/ExercicioException/
-/ExercicioContaPoupança/
+/ContaPoupanca.class
+/DepositoNegativoException.class
+/PoupancaMain.class
+/SaldoInsuficienteException.class
+/SaqueNegativoException.class

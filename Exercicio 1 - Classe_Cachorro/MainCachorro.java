@@ -1,4 +1,4 @@
-class Main{
+class MainCachorro{
   public static void main(String[] args){
 <<<<<<< HEAD
     Cachorro c1 = new Cachorro(Raca.PE_DURO, "Rex");

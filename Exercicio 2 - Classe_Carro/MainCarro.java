@@ -1,4 +1,4 @@
-class Main {
+class MainCarro {
   public static void main(String[] args){
     Carro ford = new Carro();
     ford.Marca = "Ford";

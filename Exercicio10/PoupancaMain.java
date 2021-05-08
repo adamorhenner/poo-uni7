@@ -74,15 +74,16 @@ public static void main(String[] args) throws SaldoInsuficienteException, SaqueN
 
     	opcao = scanner.nextInt();
     	if (opcao == 1) {
-        	System.out.println("digite seu cpf: ");
-        	int cpf = scanner.nextInt();
-        	for (ContaBancaria s : contas) {
-        		if(cpf == s.getCliente().getCpf()) {
-        			menu(s, contas);
-        		}else {
-        			System.out.println("Conta inexistente em nosso banco de dados");
-        		}
-            }        	    		
+        		System.out.println("digite seu cpf: ");
+        		int cpf = scanner.nextInt();
+        		for (ContaBancaria s : contas) {
+        			if(cpf == s.getCliente().getCpf()) {
+        				menu(s, contas);
+        			}
+        			if (cpf != s.getCliente().getCpf()) {
+        				System.out.println("Cpf invalido!");
+        			}
+        		}        	    		
     	}
     	if (opcao == 2) {
     		System.out.println("Abra sua conta!");

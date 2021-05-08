@@ -3,7 +3,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 
-public class PoupancaMain {
+public class MainBanco {
 public static void menu(ContaBancaria conta, Set<ContaBancaria> contas) throws DepositoNegativoException, SaqueNegativoException, SaldoInsuficienteException {
     Scanner scanner = new Scanner(System.in);
     int saida = 0;

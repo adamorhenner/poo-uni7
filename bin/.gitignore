@@ -1,5 +1,3 @@
-/ContaPoupanca.class
-/DepositoNegativoException.class
-/PoupancaMain.class
-/SaldoInsuficienteException.class
-/SaqueNegativoException.class
+/Pessoa.class
+/TransferenceException.class
+/ContaBancaria.class

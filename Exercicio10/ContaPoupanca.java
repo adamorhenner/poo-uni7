@@ -1,32 +1,31 @@
-public class ContaPoupanca {
 
-  private double saldo;
+public class ContaPoupanca extends ContaBancaria {
+	
+	static double Selic = 0.75;
+	static double taxa = 2;
+	public ContaPoupanca(Pessoa Cliente) {
+		super(Cliente);
+	}
+public double Render() {
+	return (saldo * Selic);
+}
 
-  public ContaPoupanca() {
-    this.saldo = 0;
-  }
+	public void sacar(double dinheiro) throws SaqueNegativoException, SaldoInsuficienteException {
+		  if (dinheiro < 0) {
+		      throw new SaqueNegativoException("Você nao pode sacar valores iguais ou menor que 0");
+		    }
 
-  public void depositar(double dinheiro) throws DepositoNegativoException {
-    if (dinheiro <= 0) {
-      throw new DepositoNegativoException("Uma mensagem bonita pra quem for tratar essa exception");
-    }
-    this.saldo += dinheiro;
-  }
+		    if (dinheiro > this.saldo) {
+		      throw new SaldoInsuficienteException("Você tem apenas R$ " + this.saldo + " de saldo");
+		    }
+		    saldo -= dinheiro;
+		    saldo-= taxa;
+	}
 
-  public void sacar(double dinheiro) throws SaldoInsuficienteException, SaqueNegativoException {
-    if (dinheiro < 0) {
-      throw new SaqueNegativoException();
-    }
 
-    if (dinheiro > this.saldo) {
-      throw new SaldoInsuficienteException("Você tem apenas R$ " + this.saldo + " de saldo");
-    }
-
-    this.saldo -= dinheiro;
-  }
-
-  public double getSaldo() {
-    return this.saldo;
-  }
-
+	public double depositar(double dinheiro) throws DepositoNegativoException {
+		Render();
+		return saldo += dinheiro;		
+		
+	}
 }

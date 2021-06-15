@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="Exercicio 1 - Classe_Cachorro"/>
-	<classpathentry kind="src" path="Exercicio 2 - Classe_Carro"/>
-	<classpathentry kind="src" path="Exercicio10"/>
-	<classpathentry kind="src" path="Exercicio11"/>
+	<classpathentry kind="src" path="TrabalhoVF"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>

@@ -5,7 +5,7 @@ public class Motor {
     private int producaoDeCarbono;
     private boolean ligado;
 
-    public Motor(int producaoDeCarbono) {
+    public Motor(int producaoDeCarbono) { /*Principio da substituição de Liskov, se tiver um motor eletrico ?*/
         this.producaoDeCarbono = producaoDeCarbono;
         this.ligado = false;
     }

@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class Veiculo {
 
     private final TipoDeVeiculo tipoDeVeiculo;/*Principio aberto/fechado (open closed), criar uma classe para cada veiculo que herde de veiculo*/
-    private final Motor motor;/**/
-    private Motorista motoristaAtual;
+    private final Motor motor;/*Principio da segregação de interfaces, dividir o motor em outras interfaces pois é possivel ter um motor eletrico*/
+    private Motorista motoristaAtual;/*Principio da responsabilidade única, veiculo era pra ser responsavel somente por veiculo*/
 
     public Veiculo(TipoDeVeiculo tipoDeVeiculo, Motor motor) {
         if (tipoDeVeiculo == null)

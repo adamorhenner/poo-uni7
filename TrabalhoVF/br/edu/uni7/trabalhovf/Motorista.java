@@ -5,8 +5,8 @@ import java.time.LocalDate;
 public class Motorista {
 
     private final String nome;
-    private LocalDate vencimentoCNH; /*Principio da responsabilidade unica, criar classe CNH e implementar ela em motorista */
-    private Veiculo veiculoAtual;
+    private LocalDate vencimentoCNH; /* Principio da responsabilidade unica, criar classe CNH e implementar ela em motorista  */
+    private Veiculo veiculoAtual; /* Principio da responsabilidade unica  */
 
     public Motorista(String nome, LocalDate vencimentoCNH) {
         this.nome = nome;
@@ -21,7 +21,7 @@ public class Motorista {
         return vencimentoCNH;
     }
 
-    public void renovarCNH() {  /*Principio da responsabilidade unica, criar classe CNH e implementar ela em motorista */
+    public void renovarCNH() { 
         vencimentoCNH = vencimentoCNH.plusYears(5);
     }
 

@@ -3,7 +3,7 @@ package br.edu.uni7.trabalhovf;
 public class Motor {
 
     private int producaoDeCarbono;
-    private boolean ligado;
+    private boolean ligado;/*Responsabilidade unica*/
 
     public Motor(int producaoDeCarbono) { /*Principio da substituição de Liskov, se tiver um motor eletrico ?*/
         this.producaoDeCarbono = producaoDeCarbono;
